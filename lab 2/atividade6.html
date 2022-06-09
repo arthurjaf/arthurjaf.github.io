@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arthur atividade 6</title>
+</head>
+<body>
+  <fieldset>
+      <legend>Cadastro de Clientes</legend>
+      <form action="/clientes" method="post">
+        <label>Nome</label>
+        <input name="nome"
+                maxlength="30"
+                placeholder="Digite seu nome"
+                required>
+      <br><br>
+      
+      <label>Endereço</label>
+        <input
+                maxlength="50"
+                placeholder="Digite seu endereço"
+                required>
+        <br><br>
+
+        <label>Email</label>
+        <input type="email"
+            placeholder="Digite seu email"
+            required>
+        <br><br>
+
+        <input type="checkbox" 
+                name="newsletter"
+                id="newsletter"
+                required>Desejo receber newsletter
+        <br><br>
+        <button type="submit">Cadastrar</button>
+        <button type="reset">Cancelar</button>
+      </form>    
+  </fieldset>
+</body>
+</html>

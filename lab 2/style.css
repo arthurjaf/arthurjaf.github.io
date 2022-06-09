@@ -1,0 +1,20 @@
+#cabecalho{
+    margin:0 ;
+    margin-bottom: -5px;
+    margin-left: 10px;
+}
+
+
+#texto{
+    text-align: left;
+    margin-right: 50%;
+    margin-left: 10px;
+}
+
+body {
+    margin: 0;
+    border-style: solid;
+    border-width: 10x;
+    border-color: gray;
+
+}
