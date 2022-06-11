@@ -1,0 +1,35 @@
+body{
+    background-color: #DDDDDD ;
+}
+
+header{
+    color: #DD0000;
+    display: inline;
+    
+}
+#nome{
+    margin: 0px 0px 0px 0px;
+    display: inline-flex;
+}
+table{
+    color: #DD0000;
+    width: 655px;
+    height: 357px;
+    margin-top: 15px;
+    
+}
+table th{
+    background-color: rgb(241, 180, 47);
+}
+
+table td{
+    background-color: #FFFFCC;
+}
+header h1{
+    margin-left: 65px;
+    
+}
+#img{
+    margin-left: 267px; 
+    width: 223px;
+}

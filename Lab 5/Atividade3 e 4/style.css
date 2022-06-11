@@ -1,0 +1,147 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 36px;
+}
+
+header h4{
+    display: inline; 
+    padding: 22px;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+header li{
+    display: inline; 
+    padding: 22px;
+    margin-top: 40px;
+    margin-right: 0px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+#menu{                       
+   text-align: right;
+   padding-left: 0px;
+   padding-right: 5px;
+}
+header a{
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #000;
+
+}
+nav{
+    border: 1px solid #000;
+     margin-right: 50px;
+     padding: 0px;
+     line-height: 4px;
+}
+   
+a:hover{
+    color: white;
+    background-color: gray;
+    padding: auto;
+    border-radius: 20px;
+}
+a:hover, #menu li:last-child{
+    color: white;
+    background-color: gray;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+#sing{
+    color:white;
+}
+
+#cefet{
+    margin: 16px 0px 0px 0px;
+}
+
+#main{
+    border: 1px solid gray;
+    height: 405px;
+    text-align: center;
+    width: 860px;
+    margin: 200px 329px;
+    list-style: none;
+}
+
+#main a{
+      text-decoration: none;
+      color: #000;
+      
+}
+#main a:hover{
+    
+      text-decoration: none;
+      color: white;
+      
+}
+
+#main-content{
+    display: inline-flex;
+    padding: 10px;
+    
+}
+#main-content li{
+ border: 1px solid black; 
+ padding: 0px 13px;  
+ list-style: none;
+ margin: 5px 21px;
+}
+
+
+
+#ultimotexto{
+    text-align:center;
+    width: 534px;
+    padding: 7px 168px;
+}
+
+#allprofile {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    grid-gap: 17px;
+    width: 841px;
+}
+
+#main-content {
+    text-align: center;
+}
+
+section {
+    display: inline-block;
+}
+
+#profile {
+    border: 1px solid black;
+    border-radius: 5px 5px 20px 20px;
+    width: 230px;
+    display: flex;
+}
+
+.circulo {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.textoprofile {
+    text-align: center;
+}
+
+div {
+    display: block;
+}
