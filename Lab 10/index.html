@@ -1,0 +1,98 @@
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>10. Laboratório de Arrays</title>
+  </head>
+  <body>
+
+    <div class="exercicio">
+      <h1>1.Funções Numéricas</h1>
+      <hr />
+      <p>
+        Crie as funções aplicáveis a arrays, de acordo com a Tabela 1. A função
+        sum deve receber um array numérico como parâmetro e retornar a soma de
+        seus elementos. A função sumOdds recebe um array numérico e retorna a
+        soma apenas dos elementos ímpares. A função product recebe um array
+        numérico e retorna o produto de seus elementos.
+      </p>
+      <p>Crie o seu array:</p>
+      <input type="text" placeholder="Digite um número" id="value01" />
+      <button id="botao01">Adicionar</button>
+      <button id="botao00">Reset</button>
+      <p>Array:</p>
+      <p id="array" class="inline"></p>
+      <hr />
+      <p>Funções:</p>
+      <div class="func">
+        <button id="botao02">sum</button>
+        <p class="inline" id="resp02">Resultado:</p>
+      </div>
+      <div class="func">
+        <button id="botao03">sumOdds</button>
+        <p class="inline" id="resp03">Resultado:</p>
+      </div>
+      <div class="func">
+        <button id="botao04">product</button>
+        <p class="inline" id="resp04">Resultado:</p>
+      </div>
+    </div>
+
+    <div class="exercicio">
+      <h1>2.Números Primos</h1>
+      <hr />
+      <p>
+        Na matemática um número é considerado primo se ele possuir apenas dois
+        divisores, o número um e ele mesmo.Para ajudar a gerar uma série de n
+        números primos, crie uma função que ao receber o tamanho n retorne a
+        respectiva série de números primos, por exemplo, ao receber o valor 4 o
+        retorno será 2, 3, 5, 7. Contudo, se for recebido dois valores a
+        interpretação será que a série deverá compreender o intervalo desses
+        valores, portanto, os valores 2, 10 resultaram em 2, 3, 5, 7.
+      </p>
+      <p>Crie o seu array (máximo 2 números, conforme as instruções acima):</p>
+      <input type="text" placeholder="Digite um número" id="value02" />
+      <button id="botao05">Adicionar</button>
+      <button id="botao06">Reset</button>
+      <p>Array:</p>
+      <p id="array2" class="inline"></p>
+      <hr />
+      <p>Funções:</p>
+      <div class="func">
+        <button id="botao07">primo</button>
+        <p class="inline" id="resp05">Resultado:</p>
+      </div>
+    </div>
+
+    
+
+            <div class="exercicio">
+                
+                    <h1>3.Números Romanos</h1>
+                    <hr />
+
+                    <p>O sistema de numeração romana é uma forma de representação numérica composto por sete letras maiúsculas do alfabeto latino: I, V, X, L, C, D e M.Então  crie  uma  função  para  receber  um  número  decimal  e  o  retorne  no  formato romano, por exemplo, ao receber 27 retorne XXVII. Para analisar mais exemplos veja a Tabela 3.
+                    </p>
+                    <p>Informe o numero que deseja converter.</p>
+                
+                
+                <div>
+                    <div>
+                        <label for="decimal" class="active">Número Decimal:</label>
+                        <input type="tel" placeholder="Informe um número decimal" id="decimal" autofocus maxlength="4">
+                    </div>
+                    
+                    <div>
+                        <label for="roman" class="active">Número Romano:</label>
+                        <input type="text" class="roman" id="roman" readonly="readonly">
+                    </div>
+                </div>
+            </div>
+    
+
+    <script type="text/javascript" src="js/script.js"></script>
+    </body>
+        
+    

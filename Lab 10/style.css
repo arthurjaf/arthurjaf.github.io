@@ -1,0 +1,27 @@
+body {
+    width: 600px;
+    margin: auto;
+  }
+
+  p {
+    text-align: justify;
+  }
+
+  .exercicio {
+    border: 1px solid black;
+    padding: 0px 20px 20px 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .inline {
+    display: inline;
+  }
+
+  .func {
+    margin: 10px;
+  }
